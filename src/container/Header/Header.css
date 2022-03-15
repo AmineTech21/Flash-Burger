@@ -1,0 +1,124 @@
+/* .app__header {
+    padding-top: 1rem;
+    background: url('../../assets/facebook_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    /*width: 100%;*/
+    /*height: 800px;*//*
+    width: 100%;
+    height: auto;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 00.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img {
+    width: 80%;
+}
+
+.app__wrapper_info {
+    
+}
+
+.app__wrapper_img {
+    margin-top: 200px;
+    margin-left: 5rem !important;
+}
+
+.ordering_button {
+    font-size: 30px !important;
+    padding: 1.5rem 4rem !important;
+
+}
+
+@media screen and (max-width: 2000px) {
+    .app__header {
+
+    }
+}
+@media screen and (max-width: 1250px) {
+    .app__header {
+        background-position: center;
+        height: 700px;
+        overflow-y: hidden;
+    }
+    /* .app__wrapper_img {
+        margin-top: 150px;
+        margin-left: 7rem !important;
+    } */
+/*}
+@media screen and (max-width: 1150px) {
+    .app__header {
+        background-position: right;
+    }
+    /* .app__wrapper_img {
+        margin-top: 150px;
+    } *//*
+    .app__wrapper_img {
+        margin: 10rem 0 0 0 !important;
+      }
+    .app__wrapper {
+        flex-direction: row !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+    }
+} */
+
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+.order__button {
+    font-size: 1.5rem !important;
+    padding: 1rem 2rem !important;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
